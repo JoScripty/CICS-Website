@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CICS Website</title>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- header and navigation -->
+  <header class="container-fluid bg-warning fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="asset/CICS logo.png" alt="CICS Logo" height="45">
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-expanded="false" aria-controls="navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="nav navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="faculty.html" class="nav-link">Faculty</a>
+            </li>
+          </ul>
+          <a href="admission.html" class="btn btn-sm btn-dark text-warning">Admission</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header and navigation end -->
+
+  <!-- carousel sectiion -->
+   <section class="carousel-section content-adjust" id="home">
+    <div class="container-fluid" id="carousel-container">
+      <div class="carousel slide carousel-dark" id="carouselId" data-bs-ride="carousel">
+        <div class="carousel-indicators d-none d-sm-flex">
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="asset/img1.jpg" alt="" class="w-100 d-block">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="asset/img2.jpg" alt="" class="w-100 d-block">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="asset/img3.jpg" alt="" class="w-100 d-block">
+          </div>
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- carousel sectiion end -->
+  
+    <!-- home section -->
+    <section class="text-dark my-3 my-md-5">
+      <div class="container-sm">
+        <div class="text-sm-center">
+          <h1 class="fw-bold fs-5">Welcome to College of Information and Computing Sciences Official Website</h1>
+          <p class="lead fs-6">"Empowering Future Innovators in Technology and Computing"</p>
+          <a href="#contact" class="btn btn-warning btn-sm">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+    
+    <!-- News -->
+    <section>
+        <div class="container border px-sm-5 py-4">
+          <h1 class="badge bg-dark text-warning p-2 fw-bold fs-4" style="margin-bottom: 20px;">CICS News</h1>
+            <div class="row shadow text-dark py-4 px-sm-3 border" style="cursor: pointer;" onclick="window.location.href ='#';">
+              <div class="col-md-5 mb-2" style="max-height: 180px; width: 200px;">
+                <img src="asset/card1.jpg" style="width: 100%; height: 100%;" class="img-fit">
+              </div>
+              <div class="col-md-7">
+                  <time datetime="2024-10-10" style="font-size: 13px;">October 10, 2024</time>
+                  <h5 class="fw-bold">Lorem ipsum</h5>
+                  <p class="fw-lighter" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius corporis modi laboriosam, excepturi ipsam quisquam aliquam, perferendis facere quas voluptas maxime optio quos perspiciatis dignissimos aperiam iusto repudiandae delectu...</p>
+                  <a href="#" class="btn btn-dark btn-sm"> Read more</a>
+              </div>
+            </div>
+            <br>
+            <div class="row shadow text-dark py-4 px-sm-3 border" style="cursor: pointer;" onclick="window.location.href ='#';">
+              <div class="col-md-5 mb-2" style="max-height: 180px; width: 200px;">
+                <img src="asset/card2.jpg" style="width: 100%; height: 100%;" class="img-fit">
+              </div>
+              <div class="col-md-7">
+                  <time datetime="2024-10-10" style="font-size: 13px;">October 10, 2024</time>
+                  <h5 class="fw-bold">Lorem ipsum</h5>
+                  <p class="fw-lighter" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius corporis modi laboriosam, excepturi ipsam quisquam aliquam, perferendis facere quas voluptas maxime optio quos perspiciatis dignissimos aperiam iusto repudiandae delectu...</p>
+                  <a href="#" class="btn btn-dark btn-sm"> Read more</a>
+              </div>
+            </div>
+            <br>
+            <div class="row shadow text-dark py-4 px-sm-3 border" style="cursor: pointer;" onclick="window.location.href ='#';">
+              <div class="col-md-5 mb-2" style="max-height: 180px; width: 200px;">
+                <img src="asset/card3.jpg" style="width: 100%; height: 100%;" class="img-fit">
+              </div>
+              <div class="col-md-7">
+                  <time datetime="2024-10-10" style="font-size: 13px;">October 10, 2024</time>
+                  <h5 class="fw-bold">Lorem ipsum</h5>
+                  <p class="fw-lighter" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius corporis modi laboriosam, excepturi ipsam quisquam aliquam, perferendis facere quas voluptas maxime optio quos perspiciatis dignissimos aperiam iusto repudiandae delectu...</p>
+                  <a href="#" class="btn btn-dark btn-sm"> Read more</a>
+              </div>
+            </div>
+            <br>
+            <div class="row shadow text-dark py-4 px-sm-3 border" style="cursor: pointer;" onclick="window.location.href ='#';">
+              <div class="col-md-5 mb-2" style="max-height: 180px; width: 200px;">
+                <img src="asset/card4.jpg" style="width: 100%; height: 100%;" class="img-fit">
+              </div>
+              <div class="col-md-7">
+                  <time datetime="2024-10-10" style="font-size: 13px;">October 10, 2024</time>
+                  <h5 class="fw-bold">Lorem ipsum</h5>
+                  <p class="fw-lighter" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius corporis modi laboriosam, excepturi ipsam quisquam aliquam, perferendis facere quas voluptas maxime optio quos perspiciatis dignissimos aperiam iusto repudiandae delectu...</p>
+                  <a href="#" class="btn btn-dark btn-sm"> Read more</a>
+              </div>
+            </div>
+            <br>
+            <div class="row shadow text-dark py-4 px-sm-3 border" style="cursor: pointer;" onclick="window.location.href ='#';">
+              <div class="col-md-5 mb-2" style="max-height: 180px; width: 200px;">
+                <img src="asset/card5.jpg" style="width: 100%; height: 100%;" class="img-fit">
+              </div>
+              <div class="col-md-7">
+                  <time datetime="2024-10-10" style="font-size: 13px;">October 10, 2024</time>
+                  <h5 class="fw-bold">Lorem ipsum</h5>
+                  <p class="fw-lighter" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius corporis modi laboriosam, excepturi ipsam quisquam aliquam, perferendis facere quas voluptas maxime optio quos perspiciatis dignissimos aperiam iusto repudiandae delectu...</p>
+                  <a href="#" class="btn btn-dark btn-sm"> Read more</a>
+              </div>
+            </div>
+            <br>
+            <div class="row shadow text-dark py-4 px-sm-3 border" style="cursor: pointer;" onclick="window.location.href ='#';">
+              <div class="col-md-5 mb-2" style="max-height: 180px; width: 200px;">
+                <img src="asset/card6.jpg" style="width: 100%; height: 100%;" class="img-fit">
+              </div>
+              <div class="col-md-7">
+                  <time datetime="2024-10-10" style="font-size: 13px;">October 10, 2024</time>
+                  <h5 class="fw-bold">Lorem ipsum</h5>
+                  <p class="fw-lighter" style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius corporis modi laboriosam, excepturi ipsam quisquam aliquam, perferendis facere quas voluptas maxime optio quos perspiciatis dignissimos aperiam iusto repudiandae delectu...</p>
+                  <a href="#" class="btn btn-dark btn-sm"> Read more</a>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- News end -->
+     <div class="bg-transparent" style="height: 71px;"  id="contact"></div>
+    <footer class="bg-dark text-light p-4">
+    <!-- Contact -->
+      <section class="mb-5">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <div class="row align-items-center contact-padding">
+          <div class="col-md">
+            <ul class="list-unstyled fs-6"> 
+              <li class="my-4">
+                <i class='bx bxs-map text-warning'></i>
+                <span class="fw-light text-secondary contact-text">Baung, Piat, Cagayan</span>
+              </li>
+              <li class="my-4">
+                <i class='bx bxs-phone-call text-warning'></i>
+                <span class="fw-light text-secondary contact-text">09456058126</span>
+              </li>
+              <li class="my-4">
+                <i class='bx bxs-envelope text-warning' ></i>
+                <span class="fw-light text-secondary contact-text">csupcics2024@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div class="ratio" style="--bs-aspect-ratio: 40%; height: 200px; max-width: 400px;">
+              <img src="asset/CICS Department.jpg" alt="" class="img-fit rounded" style="width: 100%; height: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <div class="container text-center">
+      <h6 class="text-muted mb-0 fw-lighter" style="font-size: 15px;">Designed by: <span class="text-warning">Joseph Cajocson</span></h6>
+      <small style="font-size: 13px;">&copy; 2024 CSU Piat - CICS</small>
+    </div>
+  </footer>
+
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
