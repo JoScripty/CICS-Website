@@ -2,18 +2,13 @@
     font-family: 'Poppins', sans-serif !important;
 }
 
-body::after{
-    display: block;
-    height: 70px;
-}
-
 #carousel-container{
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
 .content-adjust{
-    padding-top: 54px !important;
+    padding-top: 71px !important;
 }
 
 .carousel-item{
